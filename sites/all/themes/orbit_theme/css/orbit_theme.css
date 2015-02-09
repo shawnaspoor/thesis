@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light|Coming+Soon|Annie+Use+Your+Telescope|Life+Savers|Snowburst+One);
 /* @file
  * This file is a custom file that loads all files. Each non-base layer
  * can be disabled.
@@ -5295,6 +5296,66 @@ a.th {
 
 .f-dropdown.large {
   max-width: 800px; }
+
+body {
+  background-color: #A1BFCD; }
+
+.contain-to-grid, nav.top-bar, .top-bar-section li a:not(.button) {
+  background-color: #857D99; }
+
+.top-bar-section li a:not(.button):hover, .top-bar-section ul li.active > a {
+  background-color: #A6D4DC; }
+
+#views_slideshow_cycle_main_homepage_slideshow-block_1 {
+  width: 100%; }
+
+.views-field.views-field-field-img img {
+  max-height: 350px;
+  width: 100%; }
+
+.views-slideshow-cycle-main-frame.views_slideshow_cycle_teaser_section {
+  width: 100%; }
+
+.block.block-views.contextual-links-region.block-views-homepage-slideshow-block-1 header {
+  margin: 0;
+  padding: 0; }
+
+div.large-4.columns {
+  padding-top: 2em; }
+
+.panel-pane .pane-views .pane-homepage-section-feed {
+  background-color: white; }
+
+main {
+  background-color: #F2F2F2; }
+
+.contextual-links-region, table tr th, table tr td {
+  background-color: #F2F2F2;
+  border: 0; }
+
+.views-field.views-field-field-top-image {
+  padding-bottom: 2em; }
+
+.views-field.views-field-field-top-image img {
+  width: 100%; }
+
+.views-field.views-field-title span {
+  line-height: 120%;
+  font-size: 150%;
+  font-family: "Coming Soon", Georgia, Serif;
+  font-weight: bold; }
+
+.l-footer.panel.row, .copyright.large-12.columns {
+  border: none;
+  text-align: center;
+  background-color: #857D99;
+  color: #F2F2F2; }
+
+h1, h2 {
+  font-family: "Coming Soon", Georgia, Serif; }
+
+aside {
+  padding-top: 4em; }
 
 /* Each individual part that can be added in */
 .admin-menu .fixed {
