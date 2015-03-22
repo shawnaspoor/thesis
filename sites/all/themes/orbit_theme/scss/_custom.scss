@@ -21,7 +21,7 @@ body {
 }
 
 .views-field.views-field-field-img img{
-	max-height: 350px;
+	max-height: 300px;
 	width: 100%;
 	//border: green 5px solid;
 }
@@ -31,8 +31,26 @@ body {
 }
 
 .block.block-views.contextual-links-region.block-views-homepage-slideshow-block-1 header {
-	margin: 0;
+	margin: 2px;
 	padding: 0;
+}
+//homepage main content section
+.flexslider {
+	border: 0;
+	margin: 0;
+	width:100%;
+	max-height:300px;
+	background-color: $primary-color;
+
+}
+
+.flexslider .slides img {
+	width: 100%;
+	max-height: 300px;
+}
+
+.large-12 {
+	background-color: $primary-color;
 }
 
 
@@ -113,4 +131,9 @@ button {
 
 div #og-group-ref-add-more-wrapper--2{
 	display: none;
+}
+
+//flexslider on facilities page
+.view-facilities-slideshow{
+	padding-bottom: 5em;
 }

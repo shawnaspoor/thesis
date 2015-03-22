@@ -5310,15 +5310,29 @@ body {
   width: 100%; }
 
 .views-field.views-field-field-img img {
-  max-height: 350px;
+  max-height: 300px;
   width: 100%; }
 
 .views-slideshow-cycle-main-frame.views_slideshow_cycle_teaser_section {
   width: 100%; }
 
 .block.block-views.contextual-links-region.block-views-homepage-slideshow-block-1 header {
-  margin: 0;
+  margin: 2px;
   padding: 0; }
+
+.flexslider {
+  border: 0;
+  margin: 0;
+  width: 100%;
+  max-height: 300px;
+  background-color: #F2F2F2; }
+
+.flexslider .slides img {
+  width: 100%;
+  max-height: 300px; }
+
+.large-12 {
+  background-color: #F2F2F2; }
 
 div.large-4.columns {
   padding-top: 2em; }
@@ -5375,6 +5389,9 @@ button {
 
 div #og-group-ref-add-more-wrapper--2 {
   display: none; }
+
+.view-facilities-slideshow {
+  padding-bottom: 5em; }
 
 /* Each individual part that can be added in */
 .admin-menu .fixed {
