@@ -4155,6 +4155,7 @@ function drupal_region_class($region) {
  *
  * @see drupal_get_js()
  */
+
 function drupal_add_js($data = NULL, $options = NULL) {
   $javascript = &drupal_static(__FUNCTION__, array());
 

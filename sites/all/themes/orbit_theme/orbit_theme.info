@@ -63,6 +63,7 @@ scripts[] = js/foundation.min.js
 ;scripts[] = js/foundation/foundation.section.js
 ;scripts[] = js/foundation/foundation.tooltips.js
 ;scripts[] = js/foundation/foundation.topbar.js
+scripts[] = js/orbit_custom.js
 
 ; Theme scripts.
 ; This file is empty, just uncomment this line and start editing!

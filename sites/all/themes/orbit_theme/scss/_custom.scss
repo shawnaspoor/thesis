@@ -88,3 +88,29 @@ h1, h2 {
 aside {
 	padding-top: 4em;
 }
+
+//hide the top navbar for provider users
+/*.toolbar-menu {
+	display:none;
+}*/
+.hidden {
+	display: none;
+	height:0;
+}
+
+//removing the bullet points from menus and list
+.menu ul li {
+	list-style-type: none;
+}
+ul li {
+	list-style-type: none;
+}
+
+//make buttons full width
+button {
+	width: 100%;
+}
+
+div #og-group-ref-add-more-wrapper--2{
+	display: none;
+}
