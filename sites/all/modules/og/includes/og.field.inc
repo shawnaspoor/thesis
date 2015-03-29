@@ -83,12 +83,12 @@ function og_field_widget_form(&$form, &$form_state, $field, $instance, $langcode
     if ($has_admin) {
       $mocked_instance['required'] = FALSE;
       if ($field_mode == 'default') {
-        $mocked_instance['label'] = t('Your groups');
+        $mocked_instance['label'] = t('Your Families');
         if ($entity_type == 'user') {
-          $mocked_instance['description'] = t('Associate this user with groups you belong to.');
+          $mocked_instance['description'] = t('Choose the family to which this person belongs.');
         }
         else {
-          $mocked_instance['description'] = t('Associate this content with groups you belong to.');
+          $mocked_instance['description'] = t('Choose the appropriate family by finding it in the list and clicking on it. The selected family will be highlighted, most likely in blue.');
         }
       }
       else {
@@ -183,11 +183,19 @@ function og_field_widget_form(&$form, &$form_state, $field, $instance, $langcode
     }
   }
 
+   // Hide "Other groups" table for group selection.
+  if ($element['#field_name'] == 'og_group_ref' && isset($element['admin'])) {
+    $element['admin']['#access'] = FALSE;
+  }
+
+  
   $form['#after_build']['og'] = 'og_complex_widget_after_build';
   $form['#validate'][] = 'og_validate_widgets';
 
   return $element;
 }
+
+
 
 /**
  * Replace Entity-reference's autocomplete path with our own.
