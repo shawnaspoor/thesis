@@ -1,0 +1,20 @@
+<?php
+// $Id$
+
+/**
+* @file
+* Main module file for the custom module
+*
+*/
+
+/**
+ * Implements hook_field_widget_form_alter().
+ 
+
+function og_field_widget_form_alter(&$element, &$form_state, $context) {
+  // Hide "Other groups" table for group selection.
+  if ($element['#field_name'] == 'og_group_ref' && isset($element['admin'])) {
+    $element['admin']['#access'] = FALSE;
+  }
+}
+*/

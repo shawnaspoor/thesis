@@ -183,12 +183,12 @@ function og_field_widget_form(&$form, &$form_state, $field, $instance, $langcode
     }
   }
 
-   // Hide "Other groups" table for group selection.
+     // Hide "Other groups" table for group selection.
   if ($element['#field_name'] == 'og_group_ref' && isset($element['admin'])) {
     $element['admin']['#access'] = FALSE;
   }
 
-  
+
   $form['#after_build']['og'] = 'og_complex_widget_after_build';
   $form['#validate'][] = 'og_validate_widgets';
 

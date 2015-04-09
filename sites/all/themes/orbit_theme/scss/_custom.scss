@@ -1,5 +1,5 @@
 body {
-	background-color: $tertiary-color;
+	background-color: darken($primary-color, 5%);
 }
 
 
@@ -129,11 +129,52 @@ button {
 	width: 100%;
 }
 
-div #og-group-ref-add-more-wrapper--2{
-	display: none;
+//menu into button
+.button {
+	display: block;
+	background-color: darken($primary-color, 10%);
 }
+
+ul.jquerymenu li.parent{
+	background-color: transparent;
+}
+.pane-jquerymenu > div > ul > li > ul > li.leaf.first.button {
+	margin-top: 25px;
+}
+
+.jquerymenu li.leaf.first.button {
+	margin-top: 25px;
+}
+.button:hover, .button:focus {
+	background-color:transparent;
+}
+
+li.leaf.button:hover {
+	background-color: darken($primary-color, 35%);
+	a {color: #ffffff; }
+}
+
 
 //flexslider on facilities page
 .view-facilities-slideshow{
 	padding-bottom: 5em;
+}
+
+
+
+//main-menu
+.contain-to-grid {
+	max-width: 1000px;
+	margin: auto;
+}
+
+//breadcrumbs 
+.breadcrumbs {
+	border-style: none;
+	border-width: none; 	
+}
+
+//main
+main {
+	border: solid 1px #f2f2f2;
 }

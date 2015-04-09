@@ -54,4 +54,15 @@ jQuery(document).ready(function() {
 			'display' : 'none'
 		});
 	})
-})*/
+})
+*/
+
+
+jQuery(document).ready(function() {
+	console.log('Hello World!');
+	jQuery(function() {
+		jQuery('ul.jquerymenu li').addClass(
+			'button'
+		)
+	})
+})

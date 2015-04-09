@@ -1,0 +1,6 @@
+; $Id$
+name = Custom
+description = a custom module used to allow for custom javascript for an accordion menu
+core = 7.x
+package = Example
+
