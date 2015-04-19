@@ -1,0 +1,32 @@
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
+.HttpRequest/*
+.MirrorSearch/*
+.bash_history
+.bash_logout
+.bash_profile
+.bashrc
+.contactemail
+.cpanel/*
+.dns
+.emacs
+.gemrc
+.gitconfig
+.lastlogin
+.softaculous/*
+.ssh/*
+.trash/*
+.zshrc
+access-logs
+etc/
+logs/
+mail/
+sites/*
+tmp/*
+uploaded_site/*
+www
+
+
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
